@@ -1,0 +1,14 @@
+{
+  "name": "ossay-guard",
+  "description": "ossay-guard: license check before your agent adds a dependency",
+  "owner": {
+    "name": "hesong0222-dev",
+    "url": "https://github.com/hesong0222-dev"
+  },
+  "plugins": [
+    {
+      "name": "ossay-guard",
+      "source": "./"
+    }
+  ]
+}

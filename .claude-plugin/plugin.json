@@ -1,0 +1,22 @@
+{
+  "name": "ossay-guard",
+  "description": "Checks the real license of a package before the agent installs it (npm, pnpm, yarn, pip, uv, poetry, cargo, go get) and asks you first when it is non-commercial, source-available, unlicensed or otherwise restricted.",
+  "version": "0.1.0",
+  "author": {
+    "name": "hesong0222-dev",
+    "url": "https://github.com/hesong0222-dev"
+  },
+  "homepage": "https://github.com/hesong0222-dev/ossay-guard",
+  "repository": "https://github.com/hesong0222-dev/ossay-guard",
+  "license": "Apache-2.0",
+  "keywords": ["license", "dependencies", "open-source", "supply-chain", "hooks"],
+  "userConfig": {
+    "mode": {
+      "type": "string",
+      "title": "When a package's license is restricted",
+      "description": "warn: ask you before the install runs (default). block: deny the install and tell Claude why.",
+      "options": ["warn", "block"],
+      "default": "warn"
+    }
+  }
+}
